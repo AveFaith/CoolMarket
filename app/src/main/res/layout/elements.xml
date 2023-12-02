@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="COOL MARKET"
+        android:textSize="40dp"
+        android:textColor="@color/green"
+        android:textAlignment="center">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите продукты"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/CB1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Яблоки">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/CB2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Бананы">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/CB3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Доширак">
+
+            </CheckBox>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/CB4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Стейк">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/CB5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Сок">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/CB6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="Сэндвич">
+
+            </CheckBox>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите способ доставки"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/RG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/RB1"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:text="Курьер">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/RB2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:text="Самовывоз">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/RB3"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:text="Дроном">
+
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Ваши комментарии">
+
+    </EditText>
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/BUT1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Заказать">
+
+        </Button>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/BUT2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Отменить выбор">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
